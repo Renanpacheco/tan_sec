@@ -6,6 +6,7 @@ double funcao(double x);
 double der_funcao(double x);
 
 double tangente(double x0,double prec);
+double secante(double x0,double x1,double prec);
 
 int main(){
 	double i;
@@ -62,4 +63,16 @@ double tangente(double x0,double prec){
 		}
 			
 	return aux;
+}
+
+double secante(double x0,double x1,double prec){
+	double aux,aux1,x2;
+	aux=funcao(x0);
+	
+	if(fabs(aux)<prec){
+		
+	}
+	
+	
+	return 0;
 }
